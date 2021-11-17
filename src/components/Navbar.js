@@ -16,6 +16,9 @@ export const Navbar = () => {
                   <a class="nav-link" href="#">inicio <span class="sr-only"></span></a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="#">organizadores</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link" href="#">speakers</a>
                 </li>
                 <li class="nav-item">

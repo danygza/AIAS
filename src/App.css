@@ -87,6 +87,10 @@ nav ul li{
   border-top: 0.1875rem solid var(--primary-gold);
 }
 
+.navbar-toggler{
+  margin-right: 5rem !important;
+}
+
 /**************DESCRIPCION************************/
 
 .services{
@@ -121,13 +125,17 @@ nav ul li{
 
 
 .services .box{
-  height: 24rem;
+  height:24rem;
   border-bottom: 0.3125rem solid var(--primary-gold);
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background: var(--primary-white);
   transition: 0.3s ease-in-out;
   align-items: center !important;
+}
+
+.height-1{
+  height: 26rem;
 }
 
 .services .box:hover{
@@ -149,4 +157,19 @@ nav ul li{
 
 .services .box:hover h3 {
   color: var(--primary-white);
+}
+
+@media (max-width: 988px){
+  .services .box{
+    height:26rem ;
+  }
+}
+
+/**************DESCRIPCION************************/
+
+.patrocinadores{
+  text-align: center;
+  padding-bottom: 2rem;
+  align-content: center !important;
+  
 }
