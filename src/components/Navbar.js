@@ -13,12 +13,12 @@ export const Navbar = () => {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">inicio <span class="sr-only"></span></a>
+                <a class="nav-link" href="#">inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">organizadores</a>
+                <a class="nav-link" href="#">organizadores</a>
                 </li>
-                <li class="nav-item">
+                 <li class="nav-item">
                   <a class="nav-link" href="#">speakers</a>
                 </li>
                 <li class="nav-item">

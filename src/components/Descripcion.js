@@ -1,7 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAppStoreIos } from "@fortawesome/free-brands-svg-icons";
-import { faAward, faChalkboardTeacher, faUniversity, faUsers } from "@fortawesome/free-solid-svg-icons";
+import { faAward, faUsers } from "@fortawesome/free-solid-svg-icons";
 
 const Descripcion = () => {
     return (
